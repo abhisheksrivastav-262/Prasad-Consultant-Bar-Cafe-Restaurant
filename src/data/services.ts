@@ -18,7 +18,7 @@ export const SERVICES: Service[] = [
     eyebrow: "Cafe Consulting",
     description:
       "From the first concept sketch to a ready-to-open cafe, we help structure the offer, space and daily operations so the business runs smoothly from day one.",
-    image: "/assets/poster-open-planning.jpeg",
+    image: "/assets/hero-restaurant-consulting.jpeg",
     bullets: [
       "Cafe concept and positioning",
       "Space planning and seating flow",
@@ -39,7 +39,7 @@ export const SERVICES: Service[] = [
     eyebrow: "Restaurant Consulting",
     description:
       "We structure new restaurant projects across concept, operations, kitchen and service so founders and owners open with clarity rather than guesswork.",
-    image: "/assets/poster-staff-setup.jpeg",
+    image: "/assets/why-prasad-operations.jpeg",
     bullets: [
       "Concept and positioning",
       "Operational planning",
@@ -79,7 +79,7 @@ export const SERVICES: Service[] = [
     eyebrow: "Staffing",
     description:
       "We help define the right staffing structure and role requirements for your project, aligned to location, experience and operating style.",
-    image: "/assets/staff-ad.jpeg",
+    image: "/assets/staffing-team.jpeg",
     bullets: [
       "Chef, CDP, Commis, Steward, Captain, Helper, Barista",
       "Role definitions and responsibilities",
@@ -98,7 +98,7 @@ export const SERVICES: Service[] = [
     eyebrow: "Menu",
     description:
       "We design menu structures that are appealing to guests and practical for the kitchen to deliver consistently.",
-    image: "/assets/poster-open-planning.jpeg",
+    image: "/assets/hero-brand-overlay.jpeg",
     bullets: [
       "Menu structure and categorisation",
       "Product selection",
@@ -119,7 +119,7 @@ export const SERVICES: Service[] = [
     eyebrow: "Kitchen",
     description:
       "We plan commercial kitchen layouts around workflow, hygiene and service efficiency, using available kitchen photography as reference.",
-    image: "/assets/poster-staff-setup.jpeg",
+    image: "/assets/kitchen-professional.jpeg",
     bullets: [
       "Kitchen workflow planning",
       "Preparation, cooking and plating zones",
@@ -140,7 +140,7 @@ export const SERVICES: Service[] = [
     eyebrow: "Recipes",
     description:
       "We develop and standardise recipes so dishes are reproduced consistently across shifts and service teams.",
-    image: "/assets/poster-open-planning.jpeg",
+    image: "/assets/chef-cooking.jpeg",
     bullets: [
       "Recipe development",
       "Recipe standardisation",
@@ -160,7 +160,7 @@ export const SERVICES: Service[] = [
     eyebrow: "Management",
     description:
       "We help hospitality businesses build clear operational procedures, defined roles and daily disciplines that protect quality.",
-    image: "/assets/poster-staff-setup.jpeg",
+    image: "/assets/cafe-restaurant-bar.jpeg",
     bullets: [
       "Operational procedures",
       "Staff roles and responsibilities",
