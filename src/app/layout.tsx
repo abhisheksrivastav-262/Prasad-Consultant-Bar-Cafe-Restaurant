@@ -10,12 +10,14 @@ const serif = Cormorant_Garamond({
   weight: ["400", "500", "600", "700"],
   variable: "--font-serif",
   display: "swap",
+  preload: false,
 });
 const sans = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
   variable: "--font-sans",
   display: "swap",
+  preload: false,
 });
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://prasadbccaferestaurantconsultant.com";
