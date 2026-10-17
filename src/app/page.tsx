@@ -35,10 +35,10 @@ export default function Home() {
           </div>
           <div className="md:col-span-5 relative">
             <div className="relative aspect-[4/5] overflow-hidden border border-espresso/10 shadow-soft">
-              <Image src="/assets/poster-open-planning.jpeg" alt="Cafe and restaurant consulting promotional artwork" fill priority sizes="(max-width:768px) 100vw, 40vw" className="object-contain" />
+              <Image src="/assets/hero-restaurant-consulting.jpeg" alt="Professional restaurant and cafe setup" fill priority sizes="(max-width:768px) 100vw, 40vw" className="object-cover" />
             </div>
             <div className="absolute -bottom-6 -left-6 hidden md:block w-40 aspect-[4/5] border-4 border-cream overflow-hidden shadow-card">
-              <Image src="/assets/poster-brand.jpeg" alt="Prasad consultant brand artwork" fill sizes="160px" className="object-contain" />
+              <Image src="/assets/hero-brand-overlay.jpeg" alt="Restaurant bar interior" fill sizes="160px" className="object-cover" />
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden border border-espresso/10 shadow-soft">
-            <Image src="/assets/staff-ad.jpeg" alt="Hospitality staffing advertisement" fill sizes="(max-width:768px) 100vw, 50vw" className="object-contain" />
+            <Image src="/assets/staffing-team.jpeg" alt="Hospitality team working in restaurant" fill sizes="(max-width:768px) 100vw, 50vw" className="object-cover" />
           </div>
         </div>
       </section>
@@ -125,7 +125,7 @@ export default function Home() {
         <div className="container grid md:grid-cols-12 gap-8 items-center">
           <div className="md:col-span-5">
             <div className="relative aspect-[3/4] overflow-hidden border border-espresso/10 shadow-soft">
-              <Image src="/assets/poster-staff-setup.jpeg" alt="Prasad consultant promotional photograph" fill sizes="(max-width:768px) 100vw, 40vw" className="object-contain" />
+              <Image src="/assets/why-prasad-operations.jpeg" alt="Restaurant operations and kitchen workflow" fill sizes="(max-width:768px) 100vw, 40vw" className="object-cover" />
             </div>
           </div>
           <div className="md:col-span-7">
