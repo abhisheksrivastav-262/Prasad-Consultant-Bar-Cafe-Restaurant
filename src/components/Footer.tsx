@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle, Instagram, Facebook } from "lucide-react";
 import { SERVICES } from "@/data/services";
 import { SITE, waLink } from "@/lib/site";
 
@@ -67,6 +67,18 @@ export default function Footer() {
               <MessageCircle size={16} className="text-gold flex-shrink-0" />
               <a href={waLink("Hello Prasad Bar Cafe Restaurant Consultant, I would like to discuss a project.")} target="_blank" rel="noopener noreferrer" className="hover:text-gold">
                 WhatsApp Chat
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <Instagram size={16} className="text-gold flex-shrink-0" />
+              <a href={SITE.instagram} target="_blank" rel="noopener noreferrer" className="hover:text-gold">
+                Instagram (@prasad_bar_cafe_consultant)
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <Facebook size={16} className="text-gold flex-shrink-0" />
+              <a href={SITE.facebook} target="_blank" rel="noopener noreferrer" className="hover:text-gold">
+                Facebook Page
               </a>
             </li>
           </ul>

@@ -20,6 +20,8 @@ import {
   FileText,
   Clock,
   Sparkles,
+  Instagram,
+  Facebook,
 } from "lucide-react";
 import { SERVICES } from "@/data/services";
 import { SITE, waLink } from "@/lib/site";
@@ -415,6 +417,25 @@ export default function Header() {
                 <span className="text-espresso/80 leading-snug mt-0.5 text-[11px] sm:text-xs">{SITE.address}</span>
               </div>
             </div>
+            {/* Social Media Links in Drawer */}
+            <div className="flex items-center gap-2 pt-1">
+              <a
+                href={SITE.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-sm bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] text-white text-xs font-medium shadow-sm hover:opacity-90 transition"
+              >
+                <Instagram size={14} /> Instagram
+              </a>
+              <a
+                href={SITE.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-sm bg-[#1877F2] text-white text-xs font-medium shadow-sm hover:opacity-90 transition"
+              >
+                <Facebook size={14} /> Facebook
+              </a>
+            </div>
           </div>
 
           {/* Legal / Policy Links */}
@@ -435,15 +456,15 @@ export default function Header() {
         </div>
       </aside>
 
-      {/* Floating Action Buttons: Call & WhatsApp (Pinned to Bottom-Right) */}
+      {/* Floating Action Buttons: Call, Facebook, Instagram, WhatsApp (Pinned to Bottom-Right) */}
       <div
-        className="fixed bottom-5 right-4 sm:bottom-6 sm:right-6 z-30 flex flex-col items-end gap-3 pointer-events-auto"
-        aria-label="Floating Contact Options"
+        className="fixed bottom-5 right-4 sm:bottom-6 sm:right-6 z-40 flex flex-col items-end gap-2.5 sm:gap-3 pointer-events-auto"
+        aria-label="Floating Social and Contact Options"
       >
         {/* Floating Call Button */}
         <a
           href={SITE.tel}
-          className="group flex items-center gap-2.5 bg-espresso text-gold border border-gold/40 shadow-2xl hover:bg-gold hover:text-espresso p-3.5 sm:px-4 sm:py-2.5 rounded-full transition-all duration-300 hover:scale-105 active:scale-95"
+          className="group flex items-center gap-2.5 bg-espresso text-gold border border-gold/40 shadow-2xl hover:bg-gold hover:text-espresso p-3 sm:px-4 sm:py-2.5 rounded-full transition-all duration-300 hover:scale-105 active:scale-95"
           aria-label="Call Directly"
           title="Call +91 84012 75734"
         >
@@ -453,12 +474,42 @@ export default function Header() {
           </span>
         </a>
 
+        {/* Floating Facebook Button */}
+        <a
+          href={SITE.facebook}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex items-center gap-2.5 bg-[#1877F2] text-white shadow-2xl hover:brightness-110 p-3 sm:px-4 sm:py-2.5 rounded-full transition-all duration-300 hover:scale-105 active:scale-95"
+          aria-label="Visit Facebook Page"
+          title="Follow us on Facebook"
+        >
+          <Facebook size={18} className="text-white" />
+          <span className="hidden sm:inline text-xs font-semibold tracking-wider uppercase text-white">
+            Facebook
+          </span>
+        </a>
+
+        {/* Floating Instagram Button */}
+        <a
+          href={SITE.instagram}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex items-center gap-2.5 bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] text-white shadow-2xl hover:brightness-110 p-3 sm:px-4 sm:py-2.5 rounded-full transition-all duration-300 hover:scale-105 active:scale-95"
+          aria-label="Visit Instagram Profile"
+          title="Follow us on Instagram"
+        >
+          <Instagram size={18} className="text-white" />
+          <span className="hidden sm:inline text-xs font-semibold tracking-wider uppercase text-white">
+            Instagram
+          </span>
+        </a>
+
         {/* Floating WhatsApp Button */}
         <a
           href={waLink("Hello Prasad Bar Cafe Restaurant Consultant, I would like to discuss a project. Please contact me.")}
           target="_blank"
           rel="noopener noreferrer"
-          className="group flex items-center gap-2.5 bg-[#25D366] text-white shadow-2xl hover:brightness-105 p-3.5 sm:px-4 sm:py-2.5 rounded-full transition-all duration-300 hover:scale-105 active:scale-95"
+          className="group flex items-center gap-2.5 bg-[#25D366] text-white shadow-2xl hover:brightness-105 p-3 sm:px-4 sm:py-2.5 rounded-full transition-all duration-300 hover:scale-105 active:scale-95"
           aria-label="Chat on WhatsApp"
           title="Chat on WhatsApp"
         >
